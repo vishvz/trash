@@ -4,6 +4,7 @@ import Banner3 from "./components/banner3";
 import Banner4 from "./components/banner4";
 import Header from "./components/header";
 import Punter from "./components/punter";
+import Banner5 from './components/banner5'
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Punter />
       <Banner3 />
       <Banner4 />
+      <Banner5 />
     </section>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
