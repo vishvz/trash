@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between sm:items-center py-8 container mx-auto">
+        <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between sm:items-center py-8 container mx-auto px-5">
           <div>
             <img src={logo} alt="" srcSet="" className="h-16 md:h-28" />
           </div>

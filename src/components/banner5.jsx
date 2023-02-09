@@ -8,7 +8,7 @@ import Card from './card'
 
 const Banner5 = () => {
   return (
-    <section className="container mx-auto min-h-screen pt-10">
+    <section className="container mx-auto min-h-screen px-5">
       <div className="flex flex-col gap-3 sm:gap-6 lg:gap-10">
         <div className="flex flex-col justify-center items-center">
           <img src={group8} alt="" />
