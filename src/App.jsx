@@ -5,6 +5,7 @@ import Banner4 from "./components/banner4";
 import Header from "./components/header";
 import Punter from "./components/punter";
 import Banner5 from './components/banner5'
+import Insta from "./components/instagram";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Punter />
       <Banner3 />
       <Banner5 />
+      <Insta />
       <Banner4 />
     </section>
     </>
