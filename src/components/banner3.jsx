@@ -6,7 +6,7 @@ import Button from '../components/button'
 function Banner3() {
     return (
         <>
-            <div className='min-h-screen'>
+            <div className='min-h-screen bg2'>
                 <section className="container mx-auto flex flex-col justify-center items-center md:pb-40 pb-20">
                     <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
                         <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
