@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Banner from "./components/banner";
+import Banner3 from "./components/banner3";
 import Header from "./components/header";
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
     <><section className="bg min-h-screen">
       <Header />
       <Banner />
-    </section></>
+      <Banner3 />
+    </section>
+    </>
   );
 }
 

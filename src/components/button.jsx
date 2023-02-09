@@ -6,7 +6,7 @@ function Button() {
   return (
     <a href="http://" target="_blank" rel="noopener noreferrer">
       <button className="btn sm:p-2 md:py-3 md:px-10 lg:py-5 lg:px-14 font-bold lg:text-2xl text-white flex gap-2">
-        <img src={WhatsApp} alt="" srcset="" />
+        <img src={WhatsApp} alt="" srcSet="" />
         +91-9125787115
       </button>
     </a>
