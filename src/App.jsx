@@ -13,8 +13,8 @@ function App() {
       <Banner />
       <Punter />
       <Banner3 />
-      <Banner4 />
       <Banner5 />
+      <Banner4 />
     </section>
     </>
   )
