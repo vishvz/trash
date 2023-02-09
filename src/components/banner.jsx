@@ -7,7 +7,7 @@ import Button from '../components/button'
 function Banner() {
   return (
     <>
-      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center">
+      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center md:pb-40 pb-20">
         <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
             <img src={logo} alt="" srcSet="" className="h-16 sm:h-24" />
