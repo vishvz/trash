@@ -7,7 +7,7 @@ import Button from '../components/button'
 function Banner4() {
   return (
     <>
-      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5 py-10">
+      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5 pt-10 md:pb-40 pb-20">
         <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
             <h1 className="text-bg text-center text-xl uppercase font-bold md:text-start md:text-3xl lg:text-5xl font-['light']">

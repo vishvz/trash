@@ -6,18 +6,23 @@ import Header from "./components/header";
 import Punter from "./components/punter";
 import Banner5 from './components/banner5'
 import Insta from "./components/instagram";
+import onlyGlass from '../src/assets/images/OnlyGlass.png'
+import footerLogo from '../src/assets/images/footerLogo.png'
 
 function App() {
   return (
-    <><section className="bg min-h-screen">
-      <Header />
-      <Banner />
-      <Punter />
-      <Banner3 />
-      <Banner5 />
-      <Insta />
-      <Banner4 />
-    </section>
+    <>
+      <section className="relative  bg-[#181818]">
+        <img src={onlyGlass} alt="" srcSet="" className="w-full h-full absolute " />
+        <Header />
+        <Banner />
+        <Punter />
+        <Banner3 />
+        <Banner5 />
+        <Insta />
+        <Banner4 />
+        <img src={footerLogo} alt="" srcSet="" className="w-full" />
+      </section>
     </>
   )
 }
