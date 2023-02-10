@@ -7,30 +7,30 @@ import Button from '../components/button'
 function Banner4() {
   return (
     <>
-      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5">
+      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5 py-10">
         <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
-            <h1 className="text-bg text-center text-xl uppercase font-bold md:text-start md:text-3xl lg:text-5xl">
+            <h1 className="text-bg text-center text-xl uppercase font-bold md:text-start md:text-3xl lg:text-5xl font-['light']">
               Get In Touch With Zetbet Customer Care
             </h1>
-            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start">
+            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start font-['Medium']">
               For Any Queries, Emergencies, Feedbacks or Complaints. We Are Here
               To Help You 24/7 With Our Online Services.
             </h2>
-            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start">
+            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start font-['Medium']">
               Whatsapp us on
             </h2>
             <div className="flex flex-col sm:flex-row gap-5">
               <Button />
               <Button />
             </div>
-            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start">
+            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start font-['Medium']">
               Customer care number
             </h2>
             <div className="flex flex-col sm:flex-row gap-5">
               <Button />
             </div>
-            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start">
+            <h2 className=" text-white md:text-xl lg:text-3xl text-center md:text-start font-['Medium']">
               Social Media
             </h2>
             <div className="flex flex-col sm:flex-row gap-5">

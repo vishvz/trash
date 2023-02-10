@@ -8,11 +8,11 @@ import Card from './card'
 
 const Banner5 = () => {
   return (
-    <section className="container mx-auto min-h-screen px-5">
+    <section className="container mx-auto min-h-screen px-5 py-10">
       <div className="flex flex-col gap-3 sm:gap-6 lg:gap-10">
         <div className="flex flex-col justify-center items-center">
           <img src={group8} alt="" />
-          <div className="text-bg text-3xl sm:text-5xl lg:text-6xl font-bold text-center">
+          <div className="text-bg text-3xl sm:text-5xl lg:text-6xl font-bold text-center font-['light']">
             CELEBS LOVE US
           </div>
           <img src={group9} alt="" />

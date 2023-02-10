@@ -7,15 +7,15 @@ import Button from '../components/button'
 function Banner() {
   return (
     <>
-      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5">
+      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5 py-10">
         <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
             <img src={logo} alt="" srcSet="" className="h-16 sm:h-24" />
-            <h1 className="text-bg text-center text-3xl uppercase font-bold md:text-start md:text-5xl lg:text-7xl">
+            <h1 className="text-bg text-center text-3xl uppercase font-bold md:text-start md:text-5xl lg:text-7xl font-['light']">
               Imandari ek mahanga shok hai jo har kisike bas ki baat nahi hoti.
             </h1>
             <img src={most} alt="" srcSet="" className="" />
-            <h2 className=" text-white md:text-3xl lg:text-5xl">
+            <h2 className=" text-white md:text-3xl lg:text-5xl font-['Medium']">
               For newID WhatsApp us on
             </h2>
             <div className="flex flex-col sm:flex-row gap-5">
