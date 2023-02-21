@@ -8,7 +8,7 @@ import Button from "../components/button";
 function Banner4() {
   return (
     <>
-      <section className="mt-80 container mx-auto min-h-screen flex flex-col justify-center items-center px-5 pt-10 overflow-hidden">
+      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5 pt-10 overflow-hidden">
         <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
           <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
             <h1 className="text-bg text-center text-xl uppercase font-bold md:text-start md:text-3xl lg:text-5xl md:pb-5 pb-3 font-['light']">
@@ -21,7 +21,7 @@ function Banner4() {
             <h2 className=" text-white md:text-xl lg:text-2xl md:pb-5 pb-3 text-center md:text-start font-['Medium']">
               Whatsapp us on
             </h2>
-            <div className="flex flex-col sm:flex-row gap-5">
+            <div className="flex flex-col sm:flex-row gap-5 z-10">
               <Button />
               <Button />
             </div>

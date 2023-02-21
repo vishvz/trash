@@ -12,12 +12,12 @@ import Available from "./components/available";
 function App() {
   return (
     <>
-      <section className="relative  bg-[#181818]">
+      <section className="relative  bg-[#181818] z-0">
         <img
           src={onlyGlass}
           alt=""
           srcSet=""
-          className="w-full h-full absolute "
+          className="w-full h-full absolute -z-10"
         />
         <Header />
         <Banner />
