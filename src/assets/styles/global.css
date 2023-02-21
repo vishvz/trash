@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Light";
+  src: url("./src/fonts/speedRush.woff") format("truetype");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("./src/fonts/bubbleLove.ttf") format("truetype");
+}
+
 .bg {
   background: rgb(36, 0, 0);
   background: linear-gradient(
@@ -40,13 +49,4 @@
     rgba(79, 13, 13, 1) 0%,
     rgba(30, 30, 30, 1) 100%
   );
-}
-
-@font-face {
-  font-family: 'Light';
-  src: url('./src/fonts/speedRush.woff') format('truetype');
-}
-@font-face {
-  font-family: 'Medium';
-  src: url('./src/fonts/bubbleLove.ttf') format('truetype');
 }

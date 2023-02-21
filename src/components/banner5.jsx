@@ -1,14 +1,14 @@
-import React from 'react'
-import group8 from '../assets/images/Group8.png'
-import group9 from '../assets/images/Group9.png'
-import group20 from '../assets/images/Group20.png'
-import group23 from '../assets/images/Group23.png'
-import group21 from '../assets/images/Group21.png'
-import Card from './card'
+import React from "react";
+import group8 from "../assets/images/Group8.png";
+import group9 from "../assets/images/Group9.png";
+import group20 from "../assets/images/Group20.png";
+import group23 from "../assets/images/Group23.png";
+import group21 from "../assets/images/Group21.png";
+import Card from "./card";
 
 const Banner5 = () => {
   return (
-    <section className="container mx-auto min-h-screen px-5 py-10">
+    <section className="container mx-auto min-h-screen py-10">
       <div className="flex flex-col gap-3 sm:gap-6 lg:gap-10">
         <div className="flex flex-col justify-center items-center">
           <img src={group8} alt="" />
@@ -24,7 +24,7 @@ const Banner5 = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Banner5
+export default Banner5;

@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import most from '../assets/images/most.png'
-import logo from '../assets/images/headerIcon.png'
-import bannerLogo from '../assets/images/bannerLogo.png'
-import Button from '../components/button'
+import most from "../assets/images/most.png";
+import bannerRight from "../assets/images/image-1main-right-banner.webp";
+import bannerLeft from "../assets/images/image-2main-left-banner_1.webp";
+import Button from "../components/button";
 
 function Banner() {
   return (
     <>
-      <section className="container mx-auto min-h-screen flex flex-col justify-center items-center px-5 py-10">
-        <div className="flex flex-col items-center justify-center gap-3 md:flex-row">
-          <div className="flex flex-col justify-center items-center gap-5 px-3 py-5 md:items-start md:flex-1">
-            <img src={logo} alt="" srcSet="" className="h-16 sm:h-24" />
-            <h1 className="text-bg text-center text-3xl uppercase font-bold md:text-start md:text-5xl lg:text-7xl font-['light']">
+      <section className="  relative mx-auto h-auto py-10 md:mb-40">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-3">
+          <div>
+            <img
+              src={bannerLeft}
+              alt=""
+              srcSet=""
+              className="lg:absolute lg:-left-14 lg:top-0"
+            />
+          </div>
+          <div className="flex flex-col items-center gap-5 mt-24 text-center">
+            <h1 className="text-bg max-w-lg text-xl uppercase font-bold md:text-3xl lg:text-5xl md:pb-5 pb-3 font-['light']">
               Imandari ek mahanga shok hai jo har kisike bas ki baat nahi hoti.
             </h1>
-            <img src={most} alt="" srcSet="" className="" />
-            <h2 className=" text-white md:text-3xl lg:text-5xl font-['Medium']">
+            <img src={most} alt="" srcSet="" className="lg:w-80 w-60" />
+            <h2 className=" text-white md:text-xl lg:text-2xl md:pb-5 pb-3 text-lg font-['Medium']">
               For newID WhatsApp us on
             </h2>
-            <div className="flex flex-col sm:flex-row gap-5">
+            <div className="sm:flex-row md:flex lg:flex gap-5 justify-center flex flex-col items-center">
               <Button />
               <Button />
             </div>
           </div>
-          <div className="px-3 h-38 sm:flex-1">
-            <img src={bannerLogo} alt="" srcSet="" />
+          <div>
+            <img
+              src={bannerRight}
+              alt=""
+              srcSet=""
+              className="lg:absolute lg:right-0 lg:top-0"
+            />
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Banner
+export default Banner;

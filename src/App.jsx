@@ -4,27 +4,32 @@ import Banner3 from "./components/banner3";
 import Banner4 from "./components/banner4";
 import Header from "./components/header";
 import Punter from "./components/punter";
-import Banner5 from './components/banner5'
+import Banner5 from "./components/banner5";
 import Insta from "./components/instagram";
-import onlyGlass from '../src/assets/images/OnlyGlass.png'
-import footerLogo from '../src/assets/images/footerLogo.png'
+import onlyGlass from "../src/assets/images/OnlyGlass.png";
+import Available from "./components/available";
 
 function App() {
   return (
     <>
       <section className="relative  bg-[#181818]">
-        <img src={onlyGlass} alt="" srcSet="" className="w-full h-full absolute " />
+        <img
+          src={onlyGlass}
+          alt=""
+          srcSet=""
+          className="w-full h-full absolute "
+        />
         <Header />
         <Banner />
         <Punter />
         <Banner3 />
         <Banner5 />
         <Insta />
+        <Available />
         <Banner4 />
-        <img src={footerLogo} alt="" srcSet="" className="w-full" />
       </section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
