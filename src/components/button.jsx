@@ -6,7 +6,7 @@ function Button() {
     <a href="http://" target="_blank" rel="noopener noreferrer">
       <button className="btn z-10 p-2 px-4 border-amber-600 border-2 font-bold lg:text-2xl text-white flex gap-2">
         <img src={WhatsApp} alt="" srcSet="" />
-        +91-9125787115
+        +977-9125787115
       </button>
     </a>
   );

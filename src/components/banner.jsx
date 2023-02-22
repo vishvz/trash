@@ -8,7 +8,7 @@ function Banner() {
     <>
       <section className="  relative mx-auto h-auto py-10 md:mb-40">
         <div className="flex flex-col md:flex-row justify-between items-center gap-3">
-          <div>
+          <div className="hidden md:block">
             <img
               src={bannerLeft}
               alt=""
@@ -18,7 +18,7 @@ function Banner() {
           </div>
           <div className="flex flex-col items-center gap-5 mt-24 text-center">
             <h1 className="text-bg max-w-lg text-xl uppercase font-bold md:text-3xl lg:text-5xl md:pb-5 pb-3 font-['light']">
-              Imandari ek mahanga shok hai jo har kisike bas ki baat nahi hoti.
+              Karlo duniya mutthi me, Khel ke Zetbet ke sath.
             </h1>
             <img src={most} alt="" srcSet="" className="lg:w-80 w-60" />
             <h2 className=" text-white md:text-xl lg:text-2xl md:pb-5 pb-3 text-lg font-['Medium']">

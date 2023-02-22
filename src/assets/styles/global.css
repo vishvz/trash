@@ -50,3 +50,11 @@
     rgba(30, 30, 30, 1) 100%
   );
 }
+
+.winsection {
+  background-image: url("src/assets/images/win.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}

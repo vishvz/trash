@@ -18,11 +18,6 @@ import instaBack from "../assets/images/Rectangle-4insta-frame.webp";
 const Insta = () => {
   return (
     <section className="relative container mx-auto min-h-screen w-full mb-20 md:mb-28 lg:mb-60">
-      <img
-        src={instaBack}
-        alt=""
-        className="absolute h-full w-full px-5 md:px-0"
-      />
       <div className="flex justify-center lg:mb-80">
         <div className="flex flex-col gap-3 sm:gap-6 lg:gap-10 pb-36 items-center">
           <div className="flex flex-col justify-center items-center">
@@ -58,12 +53,14 @@ const Insta = () => {
               <img src={group33} alt="" srcSet="" />
             </a>
           </div>
-          <img
-            src={instaMask}
-            style={{ mixBlendMode: "lighten" }}
-            className="max-w-md -bottom-20 md:max-w-3xl absolute lg:-bottom-60 mb-20"
-            alt=""
-          />
+          <div className="max-w-sm overflow-hidden -bottom-20 md:max-w-3xl absolute lg:-bottom-60 mb-20">
+            <img
+              src={instaMask}
+              style={{ mixBlendMode: "lighten" }}
+              className=""
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>

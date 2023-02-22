@@ -8,6 +8,7 @@ import Banner5 from "./components/banner5";
 import Insta from "./components/instagram";
 import onlyGlass from "../src/assets/images/OnlyGlass.png";
 import Available from "./components/available";
+import Stock from "./components/Stock";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Banner />
         <Punter />
         <Banner3 />
+        <Stock />
         <Banner5 />
         <Insta />
         <Available />
