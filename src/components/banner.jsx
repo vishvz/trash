@@ -17,7 +17,7 @@ function Banner() {
             />
           </div>
           <div className="flex flex-col items-center gap-5 mt-24 text-center">
-            <h1 className="text-bg max-w-lg text-xl uppercase font-bold md:text-3xl lg:text-5xl md:pb-5 pb-3 font-['light']">
+            <h1 className="text-bg max-w-lg text-2xl uppercase font-bold md:text-3xl lg:text-5xl md:pb-5 pb-3 font-['light']">
               Karlo duniya mutthi me, Khel ke Zetbet ke sath.
             </h1>
             <img src={most} alt="" srcSet="" className="lg:w-80 w-60" />
@@ -34,7 +34,7 @@ function Banner() {
               src={bannerRight}
               alt=""
               srcSet=""
-              className="lg:absolute lg:right-0 lg:top-0"
+              className="lg:absolute right-0 lg:top-0"
             />
           </div>
         </div>
