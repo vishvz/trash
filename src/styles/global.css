@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "speedRush";
+  src: url("./src/fonts/speedRush.woff") format("truetype");
+}
+@font-face {
+  font-family: "bubbleLove";
+  src: url("./src/fonts/bubbleLove.ttf") format("truetype");
+}
+
+.buttonGradient {
+  background: linear-gradient(180deg, #018af6 0%, #092a68 100%);
+}
+
+.gradient {
+  background: linear-gradient(180deg, #311257 0%, #0d0319 100%);
+}
+
+.yellowLine {
+  border: 1px solid #bdff00;
+  box-shadow: 0px 1px 4px #fff501, 0px -1px 4px #fff501;
+}
